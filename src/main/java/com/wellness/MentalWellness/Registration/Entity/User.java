@@ -1,16 +1,15 @@
-package com.wellness.MentalWellness.Registration.Entity;
+package com.wellness.mentalWellness.registration.entity;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.time.Instant;
 import java.time.LocalDate;
 
 @Document(collection = "users")
 public class User {
-
     @Id
     @JsonProperty(value = "id")
     private String id;
@@ -151,3 +150,4 @@ public class User {
                 '}';
     }
 }
+

@@ -1,4 +1,4 @@
-package com.wellness.MentalWellness;
+package com.wellness.mentalWellness;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
